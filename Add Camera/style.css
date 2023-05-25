@@ -1,0 +1,67 @@
+body{
+    background-image: url(addcamera.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+    
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    width: 50px;
+}
+    
+.camera-locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -75px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+    
+.location-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+    
+.add-more-button {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+    
+.edit-button {
+    margin-top: 150px;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.add-camera-form{
+    margin-top: -300px;
+    position: fixed;
+}

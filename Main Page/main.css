@@ -1,0 +1,33 @@
+body{
+    background-image: url(bg1.png);
+    background-size: cover;
+}
+
+.div0{
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+.diiv{
+    margin-left: 1330px;
+    margin-top: -41px;
+}
+
+.div1{
+    position: fixed;
+}
+
+.buttons{
+    margin-left: 600px;
+    margin-top: 170px;
+    position: fixed;
+}
+
+.buttons .btn{
+    margin-right: 85px;  
+}
+
+.teslog{
+    margin-left: 660px;
+    margin-top: -10px;
+}
