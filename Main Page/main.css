@@ -1,6 +1,7 @@
 body{
-    background-image: url(bg1.png);
+    background-image: url(background-white.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 
 .div0{

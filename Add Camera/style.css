@@ -1,67 +1,100 @@
 body{
-    background-image: url(addcamera.png);
-    background-size: cover;
+    background-image: url(background-white.jpg);
     overflow: hidden;
+    background-size: cover;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-    
-.back-button {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .back-button {
+    width: 30px;
     position: absolute;
     top: 20px;
     left: 20px;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    position: fixed;
-    width: 50px;
-}
-    
-.camera-locations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: -75px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-}
-    
-.location-button {
-    margin: 10px;
-    padding: 10px;
-    background-color: #000000;
-    border: none;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-    
-.add-more-button {
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #000000;
-    border: none;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-}
-    
-.edit-button {
-    margin-top: 150px;
-    padding: 10px;
-    background-color: #000000;
-    border: none;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
+  }
+
+  .camera-locations,
+.add-more-button,
+.edit-button,
+.add-camera-form {
+  margin: auto;
+  margin-bottom: 10%;
 }
 
-.add-camera-form{
-    margin-top: -300px;
-    position: fixed;
-}
+  .location-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .location-button:hover {
+    opacity: 1;
+  }
+  
+  .add-more-button,
+  .edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .add-more-button:hover,
+  .edit-button:hover {
+    opacity: 1;
+  }
+  
+  .add-camera-form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-camera-form h3 {
+    margin-bottom: 10px;
+  }
+  
+  .add-camera-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .add-camera-form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-camera-form button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .add-camera-form button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
